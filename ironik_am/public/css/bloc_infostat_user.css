@@ -1,0 +1,107 @@
+
+
+/*===================
+bloc info/stats utilisateurs
+ ========================*/
+
+
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+
+
+
+.follow {
+
+    margin-right: 300px;
+}
+
+
+.media
+{
+    margin: 20px 0 80px ;
+    padding:30px;
+}
+
+
+/* image avatar ronde */
+
+.rond_1 {
+
+    display:inline-block;
+    margin-right: 50%;
+
+}
+
+
+.dp
+{
+    border:10px solid #eee;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 15px;
+
+}
+
+
+.dp:hover
+{
+    border:2px solid #eee;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+}
+
+
+
+.media span {
+
+    margin:5px;
+}
+
+.header_stats {
+
+    display:inline-block;
+    height:35px;
+    padding-top: 12px;
+    border:2px solid grey;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+    /*photo user*/
+
+    .rond_1{
+
+        margin-right: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    /*photo user profil*/
+    .rond_1{
+
+        margin-right: 5%;
+    }
+
+}

@@ -1,0 +1,339 @@
+
+/* ==========================================================================
+MEME
+   ========================================================================== */
+.panel-meme {
+
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+
+
+}
+.panel_share {
+
+    background-color: black;
+    margin-top:10px;
+    padding:5px;
+    font-size: 14px;
+    color:#f1d783;
+}
+
+.panel-meme > .panel-heading {
+    margin-top: 20px;
+    padding: 13px 10px;
+    background-color:#F1D783;
+    /*width:535px; */
+    max-width: 100% ;
+    height:64px;
+
+}
+
+.panel-heading > a {
+
+    display: block;
+     float: left;
+    width: 50px;
+    height: 50px;
+
+}
+
+.panel-heading > a >img{
+
+    height: 100%;
+
+}
+
+/* CSS titre meme */
+.panel-meme > .panel-heading > p
+{
+    font-size: 17px;
+    font-family: "Kankin";
+    margin-left: 10%;
+    margin-bottom: 0;
+
+}
+
+
+.panel-heading > img
+{
+    width:38px;
+    height:38px;
+    border:2px solid #eee;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+
+
+}
+
+
+
+.panel-meme > .panel-heading > h3 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.panel-meme > .panel-heading > h5 {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10%;
+}
+
+.panel-body >.thumbnail > img{
+
+    height:515px;
+
+}
+@media (max-width: 500px) {
+
+
+    .panel-body >.thumbnail > img{
+
+        height:293px;
+
+    }
+}
+
+
+.panel-meme > .panel-footer {
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 54px;
+}
+.panel-meme > .panel-footer > .btn {
+    float: left;
+    margin-right: 8px;
+}
+.input-placeholder {
+    display: block;
+    margin-top: 10px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 6px 7px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+}
+
+
+
+.panel-meme.panel-meme-show-comment > .panel-footer > .input-placeholder {
+    display: none;
+}
+.panel-meme > .panel-meme-comment {
+    display: none;
+    padding: 10px 20px 15px;
+    border-top: 1px solid rgb(229, 229, 229);
+    background-color: rgb(245, 245, 245);
+}
+.panel-meme.panel-meme-show-comment > .panel-meme-comment {
+    display: block;
+}
+
+.panel-meme > .panel-meme-comment > .panel-meme-textarea {
+    float: right;
+    width: calc(100% - 56px);
+}
+.panel-meme > .panel-meme-comment > .panel-meme-textarea > textarea {
+    display: block;
+    /*margin-left: 60px;
+    width: calc(100% - 56px);*/
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    resize: vertical;
+}
+.panel-meme > .panel-meme-comment > .panel-meme-textarea > .btn {
+    margin-top: 10px;
+    margin-right: 8px;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .panel-meme > .panel-meme-comment > .panel-meme-textarea > .btn {
+        width: auto;
+    }
+}
+
+.panel-meme .btn {
+    border-radius: 3px;
+}
+.panel-meme .btn-default {
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+}
+.panel-meme .btn-default:h
+over,
+.panel-meme .btn-default:focus,
+.panel-meme .btn-default:active {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+
+
+
+/* Button styles: */
+
+
+.btn-twitter {
+    background-color: #3399CC !important;
+    width: 40px;
+    color:#FFFFFF!important;
+}
+
+.btn-facebook {
+    background-color: #3D5B96 !important;
+    width: 40px;
+    color:#FFFFFF!important;
+}
+
+.btn-instagram {
+
+    background-color: #956D53 !important;
+    width: 40px;
+    color:#FFFFFF!important;
+
+}
+
+/*-----------------------
+----- BOUTON  du bloc meme----- */
+
+
+#btn_follow
+{
+    margin-right: 50%;
+    float:right;
+}
+
+.btn_Option
+{
+    position : relative;
+    margin-top: 0%;
+}
+
+
+.panel-footer>.dropdown-menu{
+
+    top:87%;
+    right:3%;
+}
+
+.panel-footer >.dropdown-menu > li {
+    display: inline-block;
+    float:left;
+}
+.panel-footer>.open > ul {
+    display: inline-flex !important;
+}
+
+
+
+.comments-container {
+    padding: 15px 0 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .029em;
+    line-height: 16px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.more-actions {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    z-index: 4;
+    color: #b2b2b2;
+    cursor: pointer;
+}
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
+
+
+/************************
+        Commentaires
+        ****************/
+
+
+.commentaires{
+
+    width: 70%;
+    margin:5px 20% 5px 10%;
+    border: 1px solid darkgrey;
+    background-color: ghostwhite;
+
+
+
+}
+
+.autor_comment {
+
+
+    color:orangered;
+    text-decoration: underline;
+
+}
+
+/****************
+        Bloc categorie menu si no Auth
+        *******************/
+.menu_categorie {
+
+    position: fixed;
+    width:20%;
+    height: 400px;
+    left:9%;
+    top:26%;
+}
+@media (max-width: 1420px) {
+
+    .menu_categorie {
+
+      left:1%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .menu_categorie {
+
+        position: absolute;
+        top:inherit;
+    }
+}
+
+/*.menu_categorie_xs{*/
+
+
+        /*height: 60px;*/
+/*}*/
+.col_menu_catego_xs {
+
+     height : 60px;
+    text-align: center;
+ }
+
+.col_menu_catego_xs > a > img {
+
+    height:50px;
+    width:50px;
+    margin-top:8px;
+}
+
+
+@media (max-width: 450px) {
+
+    .col_menu_catego_xs > a > img {
+
+        height:50px;
+        width:100%;
+    }
+}
+

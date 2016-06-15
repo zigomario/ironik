@@ -1,0 +1,394 @@
+
+
+/* ==========================================================================
+HEADER 
+========================================================================== */
+
+
+
+
+.header
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-image: url('../img/82f.jpg') ;
+    background-size:cover;
+    padding-top:4%;
+
+}
+
+
+
+
+.font
+{
+font-family: 'Righteous';
+}
+
+
+.title
+{
+font-size: 135px;
+color: white;
+text-align: center;
+margin-bottom: 0px;
+font-family: 'Righteous', cursive;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+  .title
+{
+
+font-size:75px;
+
+}
+ }
+
+.intro 
+{
+color: white;
+font-family: 'poppins';
+font-weight: 600;
+margin-bottom:55px;
+letter-spacing: 4px;
+font-size: 17px;
+margin-top: 1%;
+
+}
+
+.btn-facebook 
+{
+color: #fff;
+background: #576CA0;
+box-shadow: 0 4px 0 #3c4b6e;
+border-color: rgba(0,0,0,0.2);
+padding: 10px 30px 10px 30px;
+border-radius: 10px;
+}
+
+.inscription
+{
+color: #fff;
+margin-top: 15px;
+font-size: 14px;
+
+}
+
+
+
+
+/* ==========================================================================
+CAROUSEL 
+========================================================================== */
+
+
+
+#perspective 
+{
+margin: 0 auto;
+margin-top: -100px;
+width: 350px;
+height: 100px;
+position: relative;
+-webkit-perspective: 1100px;
+perspective: 1100px;
+
+}
+
+
+#carousel
+{
+width: 100%;
+height: 100%;
+position: absolute;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-webkit-transform: rotateY(0deg) translateZ(-100px);
+}
+
+
+
+#carousel figure 
+{
+display: block;
+position: absolute;
+background: #2ecc71;
+width: 310px;
+height: 287px;
+margin: 12px;
+color: #fff;
+cursor: pointer;
+-webkit-transition: opacity 1s, -webkit-transform 1s;
+-moz-transition: opacity 1s, -moz-transform 1s;
+-o-transition: opacity 1s, -o-transform 1s;
+transition: opacity 1s, transform 1s;
+}
+
+
+
+
+/* ==========================================================================
+CONCEPT 
+========================================================================== */
+
+
+.concept 
+{
+margin-top:220px;          
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+  .concept 
+{
+margin-top:0px;          
+}
+
+
+ }
+
+
+
+
+.text-muted 
+{
+color: black;
+font-family: 'poppins';
+font-size: 12px;
+letter-spacing: 4px;
+}
+
+
+.ph-20
+{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.concept .fa 
+{
+color:#f1d783;
+}
+
+
+
+
+/* ==========================================================================
+  en ce moment
+========================================================================== */
+
+    
+    /*par defaut et version pc*/
+
+    .img_moment 
+    {
+    width:100%;
+    max-height: 100%;
+    min-height: 100%;
+    }
+
+    .color 
+    {
+    background-color: #f1d783;
+    height: 100%;
+    margin-right: 2%;
+    padding-top: 70px;
+
+
+    }
+
+
+    .encemoment
+    {
+    margin-bottom: 4%;
+    height: 200px;
+    }
+
+
+    .barre
+    {
+    background-color: #262630;
+    height: 12px;
+    margin-top: 60px;
+    }
+
+    .col_img_moment {
+
+      height: 100%;
+    }
+
+
+  /*version mobile*/
+
+    .h2_dernierpost {
+
+      font-size: 60px;
+    }
+
+    .col_img_moment_xs {
+
+        margin-bottom: 15px;
+    }
+
+
+
+
+/*===========================================================================
+TRENDING NIQUER
+==========================================================================*/
+
+
+
+
+.top_prof_home
+{
+    background-image:url('../img/mullet.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.top_prof_home h2
+{
+color: white;
+font-size: 40px;
+font-weight: bold ;
+text-transform: uppercase;
+border-bottom: white 2px solid;
+padding-bottom: 10px;
+margin:auto;
+width: 290px;
+
+}
+
+
+.profilpic
+{
+display:block;
+width: 155px;
+height: 155px;
+margin:auto;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+
+article figcaption 
+{
+
+text-align: center;
+}
+
+
+article h3 
+{
+font-size: 1.3rem;
+color:white;
+font-family: 'poppins' !important;
+letter-spacing: 4px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+
+
+/*=================
+TAGCATTOP
+========================*/
+
+.checkthat
+{
+margin-bottom: 30px;
+}
+
+
+.hashtag ul 
+{
+padding-top: 4%;
+list-style-type: none;
+margin-right: 45px;
+margin-top: 40px;
+
+}
+
+.hashtag li
+{
+padding-left: 1%;
+padding-bottom: 5px;
+letter-spacing: 4px;
+}
+
+
+.hashtag span 
+{
+font-size: 18px;
+font-weight: bold;
+color:#f1d783;
+}
+
+
+.ironiker_pseudo
+{
+font-size: 11px;
+padding-bottom: 5%;
+margin-top: 5%;
+}
+
+
+#menu
+{
+margin-left: 3%;
+}
+
+
+
+
+ .col_check_catego {
+
+  width:30%;
+  
+  padding:2px;
+  
+}
+
+.icon img {
+  
+  
+  width:100%;
+  height:100%;
+}
+ 
+
+
+.col_best_meme {
+
+   width:30%;
+
+  padding:2px;
+  
+}
+
+.meme img {
+   width:100%;
+  height:100%;
+}
+
+
+
+
+
+
+
+
+
+

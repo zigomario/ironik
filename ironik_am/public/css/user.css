@@ -1,0 +1,34 @@
+
+
+
+
+/*/============================BOUTON FOLLOW==============
+  =====================================================*/
+
+
+.btn_follow
+{
+    display : block;
+    position : absolute ;
+    z-index : 1000 ;
+    width: 50px;
+    right: 15px;
+    margin-top: 17%;
+
+}
+
+.btnplus_follow
+{
+    font-size: 3em;
+}
+
+
+@media (max-width: 500px) {
+
+    .btnplus_follow
+    {
+        font-size:  1.5em;
+    }
+
+}
+
